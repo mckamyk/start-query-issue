@@ -1,0 +1,31 @@
+{
+  "name": "start2",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.52.1",
+    "@tanstack/react-router": "^1.50.1",
+    "@tanstack/react-router-with-query": "^1.50.1",
+    "@tanstack/start": "^1.50.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.10",
+    "vinxi": "^0.4.1"
+  }
+}
